@@ -7,7 +7,7 @@ Using memap.py that is a mbed tool for show details information when compile pro
 - ....
 
 ## Resources
-- Tool: https://github.com/ARMmbed/mbed-os/blob/master/tools/memap.py (`git clone https://github.com/ARMmbed/mbed-os.get`)
+- Tool: https://github.com/ARMmbed/mbed-os/blob/master/tools/memap.py (`git clone https://github.com/ARMmbed/mbed-os.git`)
 - Instruction: https://github.com/ARMmbed/mbed-os/blob/mbed-os-5.2/docs/memap.md (`Important`)
 
 ## Command
@@ -19,7 +19,7 @@ Using memap.py that is a mbed tool for show details information when compile pro
         `-Wl,-Map=$(PROJECT).map`
 
 ## Enjoy
-- From the results which is showed from memap.py you can modif:
+- From the results which is showed from memap.py you can modify:
     + Compile config for reduce application size
     + Heap, Stack size config in linker file (ex: NRF51822.LD)
 
