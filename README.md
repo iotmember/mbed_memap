@@ -15,8 +15,8 @@ Using memap.py that is a mbed tool for show details information when compile pro
 
 ## *.map file for GCC compiler
 - Create map file after compile project
-Add the follow option to Linker flags (LD_FLAGS)
-`-Wl,-Map=$(PROJECT).map`
+    + Add the follow option to Linker flags (LD_FLAGS)
+        `-Wl,-Map=$(PROJECT).map`
 
 ## Enjoy
 - From the results which is showed from memap.py you can modif:
