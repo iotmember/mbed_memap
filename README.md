@@ -11,7 +11,7 @@ Using memap.py that is a mbed tool for show details information when compile pro
 - Instruction: https://github.com/ARMmbed/mbed-os/blob/mbed-os-5.2/docs/memap.md (`Important`)
 
 ## Command
-- Example: `python memap.py example.map -t GCC_ARM`
+- Example: `python memap.py example.map -t GCC_ARM -o memap_result.txt -e table`
 
 ## *.map file for GCC compiler
 - Create map file after compile project
